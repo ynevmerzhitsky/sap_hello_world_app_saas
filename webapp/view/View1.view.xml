@@ -1,0 +1,16 @@
+<mvc:View controllerName="sap.btp.helloworldui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+            <FlexBox direction="Row" alignItems="Center" class="sapUiTinyMarginBottom" id="Flexbox0">
+                <VBox id="VBox0">
+                    <!-- Input field for user name -->
+                    <Input id="nameInput" placeholder="Enter your name"/>
+                    <!-- Button to trigger the alert -->
+                    <Button id="submitButton" text="Submit" press="onSubmit" class="sapUiTinyMarginTop"/>
+                </VBox>
+            </FlexBox>
+        </content>
+    </Page>
+</mvc:View>
